@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "451c6c18-42ae-4d98-89fa-711e39b901a2",
+		"name": "udacity-c2-project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://{{HOST}}/filteredimage?image_url=https://dclmcloud.s3.amazonaws.com/webcast/img/logo.png",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "image/png",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://{{HOST}}/filteredimage?image_url=https://dclmcloud.s3.amazonaws.com/webcast/img/logo.png",
+					"protocol": "http",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"filteredimage"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "https://upload.wikimedia.org/wikipedia/commons/9/94/Dove_of_the_Holy_Spirit.png",
+							"description": "The Holy Spirit dove",
+							"disabled": true
+						},
+						{
+							"key": "image_url",
+							"value": "https://dclmcloud.s3.amazonaws.com/webcast/img/logo.png"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "HOST",
+			"value": "localhost:8082",
+			"type": "string"
+		}
+	]
+}

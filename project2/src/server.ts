@@ -26,9 +26,14 @@ import { filterImageFromURL, deleteLocalFiles } from './util/util';
   //    image_url: URL of a publicly accessible image
   // RETURNS
   //   the filtered image file [!!TIP res.sendFile(filteredpath); might be useful]
+<<<<<<< HEAD
 
   /**************************************************************************** */
 
+=======
+  /**************************************************************************** */
+  // this code repo helped me - https://github.com/pavankomarina/cloud-developer/blob/master/course-02/project/image-filter-starter-code/src/server.ts
+>>>>>>> main
   //! END @TODO1
   
   app.get('/filteredimage', async (req, res) => {
