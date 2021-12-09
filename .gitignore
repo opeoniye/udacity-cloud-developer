@@ -5,7 +5,8 @@ project2/.DS_Store
 project2/src/.DS_Store
 project2/node_modules
 project2/.elasticbeanstalk/*
-
+project2/www
+project2/src/util/.DS_Store
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
