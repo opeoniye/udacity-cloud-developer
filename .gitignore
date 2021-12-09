@@ -4,6 +4,7 @@ project1/.DS_Store
 project2/.DS_Store
 project2/src/.DS_Store
 project2/node_modules
+project2/.elasticbeanstalk/*
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
