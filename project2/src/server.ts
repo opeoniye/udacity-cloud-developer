@@ -30,7 +30,7 @@ import { filterImageFromURL, deleteLocalFiles } from './util/util';
   // this code repo helped me - https://github.com/pavankomarina/cloud-developer/blob/master/course-02/project/image-filter-starter-code/src/server.ts
   //! END @TODO1
   
-  app.get('/filteredimage', async (req, res) => {
+  app.get('/filteredimage', async (req:express.Request, res:express.Response) => {
     
     // 1. validate the image_url query
     let { image_url } = req.query;
