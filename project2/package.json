@@ -2,8 +2,9 @@
   "name": "udacity-c2-image-filter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf www/ || true",
     "build": "npm run clean && tsc && cp package.json www/package.json && mkdir www/tmp/ && cd www && zip -r Archive.zip . && cd ..",
@@ -11,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grutt/udacity-c2-image-filter.git"
+    "url": "git+https://github.com/opeoniye/udacity-cloud-developer.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/grutt/udacity-c2-image-filter/issues"
+    "url": "https://github.com/opeoniye/udacity-cloud-developer/issues"
   },
-  "homepage": "https://github.com/grutt/udacity-c2-image-filter#readme",
+  "homepage": "https://github.com/opeoniye/udacity-cloud-developer/tree/main/project2#readme",
   "devDependencies": {
     "@types/bluebird": "^3.5.33",
     "@types/express": "^4.17.0",
