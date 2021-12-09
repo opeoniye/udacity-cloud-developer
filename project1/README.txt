@@ -1,5 +1,4 @@
 README
-
 Institution:	Udacity
 Course:			Cloud Developer Nanodegree
 project id:		Project 1
