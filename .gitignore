@@ -11,3 +11,7 @@ project2/src/util/.DS_Store
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+project1/udacity-starter-website/vendor/fontawesome-free/.DS_Store
+.gitignore
+project1/udacity-starter-website/vendor/.DS_Store
+project1/udacity-starter-website/.DS_Store
