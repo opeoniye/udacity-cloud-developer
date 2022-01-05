@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: simple-node
-        image: engrsam/simple-node
+        image: opeoniye/simple-node
         ports:
         - containerPort: 80
