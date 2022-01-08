@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  # Postgres login is sensitive
+  POSTGRES_HOST: bamsudacity.cprui2dd5etz.us-east-1.rds.amazonaws.com
+  POSTGRES_DATABASE: udagram
+  AWS_BUCKET: bamsudacity-dev
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  URL: http://localhost:8100
+  JWT_SECRET: udagram4bams
+metadata:
+  name: env-config

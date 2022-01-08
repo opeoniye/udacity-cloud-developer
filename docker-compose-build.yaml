@@ -15,4 +15,4 @@ services:
   frontend:
     build:
       context: ./project3/frontend
-    image: opeoniye/udagram-frontend:local
+    image: opeoniye/udagram-frontend
