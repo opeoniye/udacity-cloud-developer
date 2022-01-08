@@ -2,17 +2,17 @@ version: "3"
 services:
   reverseproxy:
     build:
-      context: ./reverseproxy
+      context: ./project3/reverseproxy
     image: opeoniye/udagram-reverseproxy
   api_user:
     build:
-      context: ./api-user
+      context: ./project3/api-user
     image: opeoniye/udagram-api-user
   api_feed:
     build:
-      context: ./api-feed
+      context: ./project3/api-feed
     image: opeoniye/udagram-api-feed
   frontend:
     build:
-      context: ./frontend
+      context: ./project3/frontend
     image: opeoniye/udagram-frontend:local
