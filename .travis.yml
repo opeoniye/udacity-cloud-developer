@@ -17,7 +17,6 @@ before_script:
   - docker-compose -v
 
 script:
-  - docker image prune --all
   - docker-compose -f docker-compose-build.yaml build --parallel
      
 # Tasks to perform after the process is successful. 
