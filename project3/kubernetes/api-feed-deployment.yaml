@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - image: opeoniye/udagram-api-feed:latest
-        name: backend-feed
+        name: api-feed
         imagePullPolicy: Always  
         resources:
           requests:
