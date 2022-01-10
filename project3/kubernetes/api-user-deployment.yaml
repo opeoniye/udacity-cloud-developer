@@ -15,7 +15,7 @@ spec:
         app: api-user
     spec:
       containers:
-      - image: opeoniye/udagram-api-user:latest
+      - image: opeoniye/udagram-api-user:v1
         name: api-user 
         imagePullPolicy: Always  
         resources:

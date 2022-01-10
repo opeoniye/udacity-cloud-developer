@@ -1,3 +1,4 @@
+#i++
 kubectl apply -f api-feed-deployment.yaml
 kubectl apply -f api-user-deployment.yaml
 kubectl apply -f frontend-deployment.yaml
@@ -10,7 +11,7 @@ kubectl apply -f reverseproxy-service.yaml
 
 
 
-
+#i--
 kubectl delete -f api-feed-deployment.yaml
 kubectl delete -f api-user-deployment.yaml
 kubectl delete -f frontend-deployment.yaml

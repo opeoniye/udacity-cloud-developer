@@ -6,8 +6,10 @@ metadata:
     app: api-user
 spec:
   ports:
-  - name: "8080"
-    port: 8080
+  - port: 8080
+    protocol: TCP
     targetPort: 8080
   selector:
-    app: api-user 
+    app: api-user
+  sessionAffinity: None
+  type: ClusterIP
