@@ -1,0 +1,11 @@
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.DS_Store
+.DS_Store
+.DS_Store
+udacity-starter-website/.DS_Store
+udacity-starter-website/vendor/.DS_Store
+udacity-starter-website/.DS_Store
+udacity-starter-website/vendor/fontawesome-free/.DS_Store

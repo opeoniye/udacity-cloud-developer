@@ -3,3 +3,9 @@
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+.DS_Store
+src/.DS_Store
+node_modules
+www
+src/util/.DS_Store
