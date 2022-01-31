@@ -5,6 +5,7 @@ import * as AWSXRay from 'aws-xray-sdk'
 import { createLogger } from '../utils/logger'
 
 const XAWS = AWSXRay.captureAWS(AWS)
+
 const logger = createLogger('todoS3')
 
 // TODO: Implement the fileStogare logic

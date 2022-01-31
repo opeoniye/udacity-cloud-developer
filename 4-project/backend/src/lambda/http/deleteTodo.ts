@@ -1,5 +1,4 @@
 import 'source-map-support/register'
-
 import { APIGatewayProxyHandler, APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda'
 //import * as middy from 'middy'
 //import { cors, httpErrorHandler } from 'middy/middlewares'
@@ -17,7 +16,7 @@ export const handler: APIGatewayProxyHandler = async (event: APIGatewayProxyEven
     const userId = getUserId(event)
     const todoId = event.pathParameters.todoId
     
-    await deleteTodo(userId, todoId)
+    await deleteTodo(todoId, userId)
 
     return {
       statusCode: 204,

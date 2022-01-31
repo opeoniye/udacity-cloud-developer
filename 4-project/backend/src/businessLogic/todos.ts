@@ -55,7 +55,7 @@ export async function updateTodo(userId: string, todoId: string, updateTodoReque
     throw new Error('User is not authorized to ')
     }
 
-    todosAccess.updateTodoItem(todoId, userId, updateTodoRequest as TodoUpdate)
+    await todosAccess.updateTodoItem(todoId, userId, updateTodoRequest as TodoUpdate)
 }
 
 export async function deleteTodo(todoId: string, userId: string ) {

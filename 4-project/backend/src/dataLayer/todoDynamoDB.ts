@@ -7,7 +7,7 @@ import { TodoUpdate } from '../models/TodoUpdate';
 
 const XAWS = AWSXRay.captureAWS(AWS)
 
-const logger = createLogger('TodosAccess')
+const logger = createLogger('todoDynamoDB')
 
 // TODO: Implement the dataLayer logic
 export class TodoDynamoDB {
