@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "news",
+  "type": "object",
+  "properties": {
+    "newsTitle": {
+      "type": "string",
+      "minLength": 5
+    },
+    "newsSummary": {
+      "type": "string",
+      "minLength": 10
+    },    
+    "newsBody": {
+      "type": "string",
+      "minLength": 10
+    }
+  },
+  "required": [
+    "newsTitle",
+    "newsBody"
+  ],
+  "additionalProperties": false
+}

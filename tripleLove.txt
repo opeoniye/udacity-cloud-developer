@@ -1,0 +1,35 @@
+Triple Love
+
+--- 3ple Love News App
+-- Description
+Create a news app where anybody can log in and create a post for all to see. Every post created by any logged in user is made available for public consumption but only the creator can edit the content posted.
+Also, any logged in user can see all posted news content but can only edit his/her own post.
+
+-- App
+app: Triple Love News
+name:   triple-love-news-app
+
+-- Features
+auth
+serverless
+rest api
+get all news
+view news
+add news
+edit news
+delete news
+pagination
+metrics & logs
+
+-- Environment
+TRIPLE_LOVE_NEWS
+TRIPLE_LOVE_NEWS_USERID_INDEX
+TRIPLE_LOVE_NEWS_NEWSID_INDEX
+TRIPLE_LOVE_NEWS_BUCKET
+
+TripleLoveNews
+TripleLoveNewsUserIDIndex
+TripleLoveNewsNewsIDIndex
+Triple-love-news-images
+
+newsTableIndex
