@@ -1,4 +1,3 @@
-//import update from 'immutability-helper'
 import { History } from 'history'
 import * as React from 'react'
 import { Button, Divider, Grid, Header, Item, Loader } from 'semantic-ui-react'
@@ -108,6 +107,7 @@ export class News extends React.PureComponent<NewsProps, NewsState> {
 
   renderNewsList() {
     return (
+      
       <div>
         <h2>Latest News...</h2>
         <Item.Group relaxed>
@@ -117,7 +117,7 @@ export class News extends React.PureComponent<NewsProps, NewsState> {
                 <Item.Image src={newsItem.attachmentUrl} />
 
                 <Item.Content verticalAlign='middle'>
-                  <Item.Header as='a' href={() => this.onReadButtonClick(newsItem.newsId)}> {newsItem.newsTitle}</Item.Header>
+                  <Item.Header as='a' href={`/news/${newsItem.newsId}/view`} > {newsItem.newsTitle}</Item.Header>
                   <Item.Description>{newsItem.newsSummary}</Item.Description>
                   <Item.Extra>
                     <Button onClick={() => this.onDeleteNews(newsItem.newsId)} basic color='red' floated='right'>Delete</Button>

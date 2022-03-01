@@ -1,6 +1,6 @@
 import React from 'react';
 import { History } from 'history'
-import { Form, Button, Header, Grid, Loader, Image, Message } from 'semantic-ui-react'
+import { Form, Button, Header, Grid, Loader } from 'semantic-ui-react'
 import Auth from '../auth/Auth'
 import { NewsItem } from '../types/News'
 import Iroyin from '../types/onenews'

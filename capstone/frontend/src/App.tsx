@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link, Route, Router, Switch } from 'react-router-dom'
 import { Grid, Menu, Segment } from 'semantic-ui-react'
-
 import Auth from './auth/Auth'
 import { AddNews } from './components/AddNews'
 import { ViewNews } from './components/ViewNews'
@@ -158,55 +157,3 @@ export default class App extends Component<AppProps, AppState> {
     }
   }
 }
-
-
-/** 
-  generateCurrentPage() {
-    if (!this.props.auth.isAuthenticated()) {
-      return <LogIn auth={this.props.auth} />
-    }
-
-    return (
-      <Switch>
-        <Route
-          path="/"
-          exact
-          render={props => {
-            return <News {...props} auth={this.props.auth} />
-          }}
-        />
-
-        <Route
-          path="/news/:newsId/edit"
-          exact
-          render={props => {
-            return <EditNews {...props} auth={this.props.auth} />
-          }}
-        />
-
-        <Route component={NotFound} />
-      </Switch>
-    )
-  }
-
-      <Switch>
-        <Route
-          path="/news"
-          exact
-          render={props => {
-            return <News {...props} auth={this.props.auth} />
-          }}
-        />
-
-        <Route
-          path="/news/:newsId/view"
-          exact
-          render={props => {
-            return <News {...props} auth={this.props.auth} />
-          }}
-        />
-
-        <Route component={NotFound} />
-      </Switch>
-
-*/

@@ -1,7 +1,6 @@
 import { History } from 'history'
 import * as React from 'react'
 import { Button, Divider, Grid, Header, Image, Loader, Segment, Container } from 'semantic-ui-react'
-import { getNewsFeedView } from '../api/news-api'
 import Auth from '../auth/Auth'
 import Iroyin from '../types/onenews'
 import { apiEndpoint } from '../config'
